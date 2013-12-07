@@ -2,6 +2,7 @@
 
 \subsection{Wstęp}
 \begin{frame}{Wady i zalety metod parametrycznych}
+	\note{W idealnym dla naukowca świecie badane przez niego wartości podlegają dokładnie jednemu z typowych rozkładów matematycznych, który jest z góry znany. Niestety w praktyce rozkład trzeba zgadywać, a dane z reguły i tak nie będą do niego idealnie pasować. Rzeczywiste rozkłady są z reguły dużo bardziej złożone, ponieważ składa się na nie wiele czynników, a rozkłady teoretyczne pozwalają uwzględnić tylko część z nich, którą uznamy za najważniejszą. Takie przybliżenie może być wystarczająco dokładne, ale nie musi. Z drugiej strony jeżeli uda nam się dopasować rozkład, to otrzymujemy dużo lepsze rezultaty, to znaczy potrzebujemy mniejszej próby do wyciągania wniosków z taką samą pewnością}
 	Wady:
 	\begin{itemize}
 		\item Wymagają znajomości lub zgadywania rozkładu
@@ -10,12 +11,30 @@
 	\end{itemize}
 	Zalety:
 	\begin{itemize}
-		\item Posiadają większą moc statystyczną
+		\item Posiadają większą moc testów
+		\item Przy dobrym doborze rozkładu wyniki mają wysoką istotność
 	\end{itemize}
 \end{frame}
-	\note{W idealnym dla naukowca świecie badane przez niego wartości podlegają dokładnie jednemu z typowych rozkładów matematycznych, który jest z góry znany. Niestety w praktyce rozkład trzeba zgadywać, a dane z reguły i tak nie będą do niego idealnie pasować. Rzeczywiste rozkłady są z reguły dużo bardziej złożone, ponieważ składa się na nie wiele czynników, a rozkłady teoretyczne pozwalają uwzględnić tylko część z nich, którą uznamy za najważniejszą. Takie przybliżenie może być wystarczająco dokładne, ale nie musi. Z drugiej strony jeżeli uda nam się dopasować rozkład, to otrzymujemy dużo większą moc, to znaczy potrzebujemy mniejszej próby do wyciągania wniosków z taką samą pewnością}
 
-\begin{Frame}{Metody nieparametryczne}
+\begin{frame}{Metody nieparametryczne - dlaczego?}
 	\begin{itemize}
+		\item Nie wymagają zakładania żadnego rozkładu
+		\item Nie wymagają dużych prób
+		\item Nie wymagają weryfikacj próby pod względemi podlegania rozkładowi
+		\item Nie wymagają, aby pomiar dokonywany był w skali interwałowej
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Metody nieparametryczne - co to jest?}
+	Cechy:
+	\begin{itemize}
+		\item Niezależne od rozkładu
+		\item Tym bardziej od jego parametrów (stąd nazwa)
+	\end{itemize}
+	Typy testów nieparametrycznych:
+	\begin{itemize}
+		\item Testy różnic między grupami
+		\item Testy różnic między zmiennymi
+		\item Testy zależności między zmiennymi
 	\end{itemize}
 \end{frame}
