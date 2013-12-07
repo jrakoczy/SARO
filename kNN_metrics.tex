@@ -9,6 +9,9 @@
 	\item $D(a,b) + D(b,c) \ge D(a,c)$
 \end{itemize}
 \end{frame}
+\note{Metryka definuje sposób okre"slania odległo"sci od sąsiada. \\
+Łatwo odnie"sć powyższe własno"sci do dystansu euklidesowego. \\
+Nie może on być ujemny, odległo"sć jest równa $0$, gdy punkty są tożsame, a dystans między trzeba punktami musi zachowywać nierówno"sć trójkąta.}
 
 \subsection{Rodzaje metryk}
 \begin{frame}{Metryka euklidesowa}
@@ -22,6 +25,9 @@
 \end{itemize}
 \end{frame}
 
+\note{Zwykła (powszechnie rozumiana) odległo"sć między punktami. \\
+Po transformacji przestrzeni poprzez pomnożenie każdej współrzędnej, odległo"sci obliczane za pomocą wspomnianej metryki mogą bardzo odbiegać od pierwotnych. Wpływa to na sposób klasyfikacji. Stąd mała wrażliwo"sć metryki euklidesowej na transformacje przestrzeni.}
+
 \begin{frame}{Metryka Manhattan}
 \begin{equation}
 	\centering
@@ -33,6 +39,10 @@
 \end{itemize}
 \end{frame}
 
+\note{Nazywana \emph{Taxicab geometry} \\
+Odległo"sć między punktami jest sumą warto"sci bezwzględnych różnic współrzędnych. Inaczej mówiąc - sumą projekcji odcinków łączących punkty na osie układu. \\
+Nazwa \emph{taxicab} oraz \emph{Manhattan} pochodzi stąd, że wizualizacja dystansów przpomina rozkład nowojorskiej dzielnicy. Krzywe reprezentujące dystans są połączeniem odcinków leżących na bokach kwadratów takiej samej wielko"sci.}
+
 \begin{frame}{Metryka Hamminga}
 \begin{itemize}
 	\item Dwa ciągi znaków równej długo"sci.
@@ -42,6 +52,10 @@
 		  dystans = 2
 \end{itemize}
 \end{frame}
+
+\note{Reprezentuje minimalną liczbę zmian jakie należy wprowadzić do jednego z ciągów znaków, by był równy drugiemu. \\
+Spełnia wszystkie niezbędne własno"sci. \\
+Metryka Hamminga jest zdefiniowana dla ciągów znaków. Odpowiada metryce \emph{Manhattan} (dla wektorów).}
 
 \begin{frame}{Metryka Tanimoto}
 \begin{equation}
@@ -53,3 +67,7 @@
 	\item Najlepiej działa dla takich samych lub zupełnie różnych zbiorów (bez gradacji).
 \end{itemize}
 \end{frame}
+
+\note{$n_1$ i $n_2$ reprezentują liczbę elementów w zbiorach (odpowiednio) $S_1$ i $S_2$. $n_{12}$ to liczba elementów w obu zbiorach. \\
+Metrykę wykorzystuje się w przypadkach, gdy nie trzeba okre"slać stopnia podobieństwa. Sprawdza się dla takich samych lub całkiem różnych zbiorów.
+}
