@@ -1,5 +1,6 @@
 \section{\scshape M. nieparametryczne}
 
+\subsection{Teoria}
 \begin{frame}{Wady i zalety metod parametrycznych}
 	\note{W idealnym dla naukowca świecie badane przez niego wartości podlegają dokładnie jednemu z typowych rozkładów matematycznych, który jest z góry znany. Niestety w praktyce rozkład trzeba zgadywać, a dane z reguły i tak nie będą do niego idealnie pasować. Rzeczywiste rozkłady są z reguły dużo bardziej złożone, ponieważ składa się na nie wiele czynników, a rozkłady teoretyczne pozwalają uwzględnić tylko część z nich, którą uznamy za najważniejszą. Takie przybliżenie może być wystarczająco dokładne, ale nie musi. Z drugiej strony jeżeli uda nam się dopasować rozkład, to otrzymujemy dużo lepsze rezultaty, to znaczy potrzebujemy mniejszej próby do wyciągania wniosków z taką samą pewnością}
 	Wady:
@@ -60,7 +61,7 @@
 \end{frame}
 
 \begin{frame}{Ogólna zasada działania metod nieparametrycznych - c.d.}
-	\note{A skoro tak, to prawdopodobieństwo w punkcie można przybliżyć jako $frac{k/n}{V}$}
+	\note{A skoro tak, to prawdopodobieństwo w punkcie można przybliżyć jako $\frac{k/n}{V}$}
 	A więc w przybliżeniu
 	\begin{equation}
 		 \int\limits_{R}p(x')dx' \simeq p(x)V
@@ -85,6 +86,7 @@
 	\end{itemize}
 \end{frame}
 
+\subsection{Przykład}
 \begin{frame}{(Względnie najprostszy) przykład - histogram}
 	\note{Do jednego z najprostszych przybliżeń rozkładu można posłużyć się histogramem. Tutaj dane jest 20 losowych wartości, które dzielimy między przedziały o szerokości 10.}
 	$n = 20$
